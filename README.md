@@ -36,27 +36,6 @@ El modelo propio converge prácticamente a los mismos coeficientes que scikit-le
 | mean radius (β₁)     |        -3.4615 |      -3.6161 |
 | mean texture (β₂)    |        -0.9165 |      -0.9391 |
 
-## 🚀 Cómo ejecutarlo
-
-### Requisitos
-
-```bash
-pip install numpy scikit-learn matplotlib
-```
-
-### Uso
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/<tu-usuario>/<tu-repo>.git
-   cd <tu-repo>
-   ```
-2. Abre el notebook con Jupyter o Google Colab:
-   ```bash
-   jupyter notebook regresion_logistica_desde_cero.ipynb
-   ```
-3. Ejecuta las celdas en orden.
-
 ## 🧩 Estructura del notebook
 
 - Importación de librerías
@@ -75,14 +54,11 @@ pip install numpy scikit-learn matplotlib
 
 - Python
 - NumPy
-- scikit-learn (solo para dataset, preprocesamiento y comparación)
+- scikit-learn 
 - Matplotlib
 
 ## 📌 Notas
 
-- El descenso de gradiente **requiere variables estandarizadas** para converger en un número razonable de épocas; sin estandarizar, el modelo necesita muchas más iteraciones o diverge con learning rates altos.
+- El descenso de gradiente funciona mejor con **variables estandarizadas** para converger en un número razonable de épocas; sin estandarizar, el modelo necesita muchas más iteraciones o diverge con learning rates altos.
 - Este proyecto tiene fines **educativos**: el objetivo es entender la mecánica interna de la regresión logística (función sigmoide, log-loss, gradiente) en lugar de usarla como una caja negra.
 
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Puedes usarlo y modificarlo libremente.
