@@ -36,8 +36,6 @@ El modelo propio converge prácticamente a los mismos coeficientes que scikit-le
 | mean radius (β₁)     |        -3.4615 |      -3.6161 |
 | mean texture (β₂)    |        -0.9165 |      -0.9391 |
 
-Log-loss en test: **~0.256** para ambos modelos.
-
 ## 🚀 Cómo ejecutarlo
 
 ### Requisitos
