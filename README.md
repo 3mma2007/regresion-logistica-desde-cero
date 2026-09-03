@@ -24,7 +24,7 @@ Se utiliza el dataset [Breast Cancer Wisconsin](https://scikit-learn.org/stable/
    - `logistic_regresion_fit`: entrena los coeficientes (`beta`) mediante **descenso de gradiente**, usando la función sigmoide y **log-loss** como función de costo.
    - `logistic_regresion_predict`: genera predicciones binarias a partir de las probabilidades (umbral = 0.5).
 6. **Evaluación** con matriz de confusión.
-7. **Comparación** contra `LogisticRegression(penalty=None)` de scikit-learn, tanto en coeficientes como en log-loss.
+7. **Comparación** contra `LogisticRegression(penalty=None)` de scikit-learn.
 
 ## 📈 Resultados
 
